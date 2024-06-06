@@ -1,11 +1,11 @@
-package com.luizafmartinez.a01_orgslojavirtual
+package com.luizafmartinez.ui.activity
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.luizafmartinez.a01_orgslojavirtual.R
-import com.luizafmartinez.a01_orgslojavirtual.ListaProdutosAdapter
+import com.luizafmartinez.ui.recyclerview.adapter.ListaProdutosAdapter
 
 class MainActivity : Activity() {
 
