@@ -82,7 +82,6 @@ class MainActivity : Activity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-
         /*val nome = findViewById<TextView>(R.id.nome)
         nome.text = "Cesta de frutas"
         val descricao = findViewById<TextView>(R.id.descricao)

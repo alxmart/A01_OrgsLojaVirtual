@@ -28,7 +28,6 @@ class ListaProdutosAdapter(
              val valor = itemView.findViewById<TextView>(R.id.valor)
              valor.text = produto.valor.toPlainString()
          }
-
      }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -38,7 +37,6 @@ class ListaProdutosAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
         val produto = produtos[position]
         holder.vincula(produto)
     }
